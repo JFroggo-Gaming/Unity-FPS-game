@@ -12,6 +12,7 @@ public class MouseLookScript : MonoBehaviour {
 	void Awake(){
 		Cursor.lockState = CursorLockMode.Locked;
 		myCamera = GameObject.FindGameObjectWithTag("MainCamera").transform;
+		WeaponRotation();
 	}
 
 	/*
